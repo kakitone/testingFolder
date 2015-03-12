@@ -1,5 +1,5 @@
 import os
-print "hi"
+print "hi2"
 assert(1==1)
 f = open("localitem.txt", 'w')
 f.write('1')
