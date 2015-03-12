@@ -18,4 +18,9 @@ assert(tmp =='2')
 print "tmp2: "+ tmp
 f.close()
 
+os.system("wget https://www.dropbox.com/s/jgreb5q8uv8d8i3/raw_reads.fasta?dl=1 -O /tmp/raw_reads.fasta")
+f=open("/tmp/raw_reads.fasta", 'r')
+print f.readline().rstrip()
+f.close()
 
+os.system("wc -lc /tmp/raw_reads.fasta")
